@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7C8999A1FE038DD0315EBF71 /* FlacTagZapperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D52C146C933C780E13B05D1 /* FlacTagZapperApp.swift */; };
+		D939BE8F34256C6FDD8E5EA7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C56E9DA3670334D9ABDE0 /* ContentView.swift */; };
+		398676671AABF85A67D0BB61 /* FLACStripper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC130D088CCF386C7EA919F /* FLACStripper.swift */; };
+		6D2D5043363E3AE6F23CE240 /* ZipProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4A24E9980241C17C6F8C9C /* ZipProcessor.swift */; };
+		A15E7B2C4C0D4B3B9E6F1D2A /* DebugLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B8C9E1D3A44F5C8E9B0A7D /* DebugLogger.swift */; };
+		E4C7A1F52B9D4E6A8F0C3D5B /* DocumentExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D2E8F4C1B4A7D9E3F6B2C /* DocumentExporter.swift */; };
+		DA557B623D568CD94F5423A9 /* VorbisCommentCodec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4ED0C2675E7B2F9CB44AF7 /* VorbisCommentCodec.swift */; };
+		5E1A7C3B9D2F4A6B8C0E1D21 /* FolderProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2B8D4C0E3A4B7C9D1F2E32 /* FolderProcessor.swift */; };
+		7A3C9E5D1F4B4C8DA2E3F043 /* FlacNaming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4D0F6E2A5C4D9EB3F4A154 /* FlacNaming.swift */; };
+		B7D4E1A93C5F4B2A8E6D1F03 /* ZipArchiveIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A9F5D27B1E4C8D9A0E6B14 /* ZipArchiveIO.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		40FA7E036D880E1DC82BC6D3 /* FlacTagZapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlacTagZapper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D52C146C933C780E13B05D1 /* FlacTagZapperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlacTagZapperApp.swift; sourceTree = "<group>"; };
+		B53C56E9DA3670334D9ABDE0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5DC130D088CCF386C7EA919F /* FLACStripper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLACStripper.swift; sourceTree = "<group>"; };
+		CC4A24E9980241C17C6F8C9C /* ZipProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZipProcessor.swift; sourceTree = "<group>"; };
+		F2B8C9E1D3A44F5C8E9B0A7D /* DebugLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugLogger.swift; sourceTree = "<group>"; };
+		9A6D2E8F4C1B4A7D9E3F6B2C /* DocumentExporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentExporter.swift; sourceTree = "<group>"; };
+		2B4ED0C2675E7B2F9CB44AF7 /* VorbisCommentCodec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VorbisCommentCodec.swift; sourceTree = "<group>"; };
+		6F2B8D4C0E3A4B7C9D1F2E32 /* FolderProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderProcessor.swift; sourceTree = "<group>"; };
+		8B4D0F6E2A5C4D9EB3F4A154 /* FlacNaming.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlacNaming.swift; sourceTree = "<group>"; };
+		C3A9F5D27B1E4C8D9A0E6B14 /* ZipArchiveIO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZipArchiveIO.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C735C6EE3DA57FD979B2405C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		579684E97C209B159B91A38C = {
+			isa = PBXGroup;
+			children = (
+				6E91E962F271651E5DB63502 /* FlacTagZapper */,
+				A3E89F8433CF2D7E61CA74BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3E89F8433CF2D7E61CA74BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40FA7E036D880E1DC82BC6D3 /* FlacTagZapper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E91E962F271651E5DB63502 /* FlacTagZapper */ = {
+			isa = PBXGroup;
+			children = (
+				3D52C146C933C780E13B05D1 /* FlacTagZapperApp.swift */,
+				B53C56E9DA3670334D9ABDE0 /* ContentView.swift */,
+				5DC130D088CCF386C7EA919F /* FLACStripper.swift */,
+				CC4A24E9980241C17C6F8C9C /* ZipProcessor.swift */,
+				C3A9F5D27B1E4C8D9A0E6B14 /* ZipArchiveIO.swift */,
+				6F2B8D4C0E3A4B7C9D1F2E32 /* FolderProcessor.swift */,
+				8B4D0F6E2A5C4D9EB3F4A154 /* FlacNaming.swift */,
+				F2B8C9E1D3A44F5C8E9B0A7D /* DebugLogger.swift */,
+				9A6D2E8F4C1B4A7D9E3F6B2C /* DocumentExporter.swift */,
+				2B4ED0C2675E7B2F9CB44AF7 /* VorbisCommentCodec.swift */,
+			);
+			path = FlacTagZapper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		730950AD798A77AD508AA9E2 /* FlacTagZapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65A46987C25C5B7B2DC3BF36 /* Build configuration list for PBXNativeTarget "FlacTagZapper" */;
+			buildPhases = (
+				C8F6F6019A71B744E0960501 /* Sources */,
+				C735C6EE3DA57FD979B2405C /* Frameworks */,
+				4EF4C73BE5B51D2EA5C44E19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlacTagZapper;
+			packageProductDependencies = (
+			);
+			productName = FlacTagZapper;
+			productReference = 40FA7E036D880E1DC82BC6D3 /* FlacTagZapper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1781F676DEDF5767F3243DB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					730950AD798A77AD508AA9E2 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 0EA97B54632306078021780E /* Build configuration list for PBXProject "FlacTagZapper" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 579684E97C209B159B91A38C;
+			productRefGroup = A3E89F8433CF2D7E61CA74BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				730950AD798A77AD508AA9E2 /* FlacTagZapper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4EF4C73BE5B51D2EA5C44E19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8F6F6019A71B744E0960501 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C8999A1FE038DD0315EBF71 /* FlacTagZapperApp.swift in Sources */,
+				D939BE8F34256C6FDD8E5EA7 /* ContentView.swift in Sources */,
+				398676671AABF85A67D0BB61 /* FLACStripper.swift in Sources */,
+				6D2D5043363E3AE6F23CE240 /* ZipProcessor.swift in Sources */,
+				B7D4E1A93C5F4B2A8E6D1F03 /* ZipArchiveIO.swift in Sources */,
+				5E1A7C3B9D2F4A6B8C0E1D21 /* FolderProcessor.swift in Sources */,
+				7A3C9E5D1F4B4C8DA2E3F043 /* FlacNaming.swift in Sources */,
+				A15E7B2C4C0D4B3B9E6F1D2A /* DebugLogger.swift in Sources */,
+				E4C7A1F52B9D4E6A8F0C3D5B /* DocumentExporter.swift in Sources */,
+				DA557B623D568CD94F5423A9 /* VorbisCommentCodec.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2C47296FA2775BC69FBBF155 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE7FBE2F89778DB227A1A038 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF4B2DC1233899DE8D2EC672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.FlacTagZapper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9CE39D1FA58E3422FA9594AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.FlacTagZapper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0EA97B54632306078021780E /* Build configuration list for PBXProject "FlacTagZapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C47296FA2775BC69FBBF155 /* Debug */,
+				CE7FBE2F89778DB227A1A038 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65A46987C25C5B7B2DC3BF36 /* Build configuration list for PBXNativeTarget "FlacTagZapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF4B2DC1233899DE8D2EC672 /* Debug */,
+				9CE39D1FA58E3422FA9594AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1781F676DEDF5767F3243DB0 /* Project object */;
+}
